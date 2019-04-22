@@ -2,7 +2,7 @@
  * @author Òscar Casajuana a.k.a. elboletaire <elboletaire at underave dot net>
  * @link https://github.com/elboletaire/password-strength-meter
  *
- * Using customizations added by Jordan Hoover
+ * Using customizations by Vashisth Bhatt
  *
  */
 ;(function ($) {

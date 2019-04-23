@@ -8,9 +8,9 @@ from . import forms
 class SuggestionViewTestCase(TestCase):
     def setUp(self):
         self.data = {
-            'name': 'Kenneth',
-            'email': 'kenneth@teamtreehouse.com',
-            'verify_email': 'kenneth@teamtreehouse.com',
+            'name': 'Vashisth',
+            'email': 'vabhatt@syr.edu',
+            'verify_email': 'vabhatt@syr.edu',
             'suggestion': 'More on testing!',
         }
         self.url = reverse('suggestion')

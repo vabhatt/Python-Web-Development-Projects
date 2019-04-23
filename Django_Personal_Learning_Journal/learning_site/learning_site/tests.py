@@ -39,7 +39,7 @@ class SuggestionViewTestCase(TestCase):
 
     def test_suggestion_bad_emails(self):
         data = self.data.copy()
-        data['verify_email'] = 'kennethlove@gmail.com'
+        data['verify_email'] = 'vabhatt@gmail.com'
         resp = self.client.post(self.url, data)
         self.assertEqual(resp.status_code, 200)
         self.assertIn('__all__', resp.context['form'].errors)

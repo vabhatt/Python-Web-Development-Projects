@@ -19,7 +19,7 @@ def suggestion_view(request):
                 'Suggestion from {}'.format(form.cleaned_data['name']),
                 form.cleaned_data['suggestion'],
                 '{name} <{email}>'.format(**form.cleaned_data),
-                ['kenneth@teamtreehouse.com']
+                ['vabhatt@syr.edu']
             )
             messages.add_message(request, messages.SUCCESS,
                                  'Thanks for your suggestion!')
